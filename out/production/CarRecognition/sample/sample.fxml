@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <GridPane hgap="5.0" layoutX="22.0" layoutY="60.0" prefHeight="480.0" prefWidth="594.0" style="-fx-background-color: #CCD0E6#CCD0E6;" vgap="5.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="109.0" minHeight="10.0" prefHeight="101.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="105.0" minHeight="10.0" prefHeight="105.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn0" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0">
+               <graphic>
+                  <ImageView id="img0" fx:id="img0" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/0.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn4" mnemonicParsing="false" onAction="#MustangAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView id="img0" fx:id="img01" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/4.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn9" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.rowIndex="3">
+               <graphic>
+                  <ImageView id="img0" fx:id="img02" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/9.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn6" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView id="img0" fx:id="img03" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/6.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn5" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView id="img0" fx:id="img04" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/5.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn3" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.rowIndex="1">
+               <graphic>
+                  <ImageView id="img0" fx:id="img05" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/3.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="2">
+               <graphic>
+                  <ImageView id="img0" fx:id="img06" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/2.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn1" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="1">
+               <graphic>
+                  <ImageView id="img0" fx:id="img07" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/1.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn8" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView id="img0" fx:id="img08" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/8.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btn7" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <graphic>
+                  <ImageView id="img0" fx:id="img09" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@photo/7.jpeg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </GridPane>
+      <ImageView id="arrow" fitHeight="136.0" fitWidth="223.0" layoutX="607.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/580b57fcd9996e24bc43c452.png" />
+         </image></ImageView>
+      <Text fx:id="textAnswer" layoutX="851.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bla Bla">
+         <font>
+            <Font name="Andale Mono" size="27.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
