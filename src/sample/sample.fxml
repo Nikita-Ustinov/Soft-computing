@@ -6,6 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
@@ -25,7 +26,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="btn0" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0">
+            <Button fx:id="btn0" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0">
                <graphic>
                   <ImageView id="img0" fx:id="img0" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -34,7 +35,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn4" mnemonicParsing="false" onAction="#MustangAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Button fx:id="btn4" mnemonicParsing="false" onAction="#MustangAction" prefHeight="127.0" prefWidth="205.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                <graphic>
                   <ImageView id="img0" fx:id="img01" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -43,7 +44,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn9" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.rowIndex="3">
+            <Button fx:id="btn9" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.rowIndex="3">
                <graphic>
                   <ImageView id="img0" fx:id="img02" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -52,7 +53,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn6" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.rowIndex="2">
+            <Button fx:id="btn6" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.rowIndex="2">
                <graphic>
                   <ImageView id="img0" fx:id="img03" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -61,7 +62,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn5" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Button fx:id="btn5" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                <graphic>
                   <ImageView id="img0" fx:id="img04" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -70,7 +71,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn3" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.rowIndex="1">
+            <Button fx:id="btn3" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.rowIndex="1">
                <graphic>
                   <ImageView id="img0" fx:id="img05" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -79,7 +80,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn2" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="2">
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.columnIndex="2">
                <graphic>
                   <ImageView id="img0" fx:id="img06" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -88,7 +89,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn1" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="1">
+            <Button fx:id="btn1" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.columnIndex="1">
                <graphic>
                   <ImageView id="img0" fx:id="img07" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -97,7 +98,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn8" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Button fx:id="btn8" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                <graphic>
                   <ImageView id="img0" fx:id="img08" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -106,7 +107,7 @@
                   </ImageView>
                </graphic>
             </Button>
-            <Button fx:id="btn7" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="107.0" prefWidth="186.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Button fx:id="btn7" mnemonicParsing="false" onAction="#FirstBtnAction" prefHeight="127.0" prefWidth="205.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                <graphic>
                   <ImageView id="img0" fx:id="img09" fitHeight="106.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
                      <image>
@@ -121,10 +122,11 @@
          <image>
             <Image url="@assets/580b57fcd9996e24bc43c452.png" />
          </image></ImageView>
-      <Text fx:id="textAnswer" layoutX="851.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bla Bla">
+      <Text fx:id="textAnswer" layoutX="900.0" layoutY="292.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bla Bla">
          <font>
             <Font name="Andale Mono" size="27.0" />
          </font>
       </Text>
+      <Pane fx:id="secondPane" prefHeight="600.0" prefWidth="1200.0" visible="false" />
    </children>
 </AnchorPane>
